@@ -94,3 +94,20 @@ button:hover {
     height: 884px;
     margin-top: 15%;
 }
+
+.photo-container {
+    position: relative;
+    display: inline-block;
+}
+
+.photo-container img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+.emoji {
+    position: absolute;
+    bottom: 10px;  
+    right: 10px;    
+    font-size: 100px;
+}
